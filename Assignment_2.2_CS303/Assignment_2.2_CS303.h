@@ -1,6 +1,4 @@
 #pragma once
-#ifndef STACK_H
-#define STACK_H
 
 #include <vector>
 #include <stdexcept>
@@ -19,4 +17,3 @@ public:
     void display() const;     // Display the stack elements
 };
 
-#endif // STACK_H
