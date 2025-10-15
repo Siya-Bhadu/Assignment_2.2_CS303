@@ -49,7 +49,6 @@ public:
 
     // Display the stack elements (for testing purposes)
     void display() const {
-        std::cout << "Stack Elements: "; // Print Stack Elements
         for (const int& elem : elements) { // Print the elements
             cout << elem << " ";
         }
@@ -92,11 +91,13 @@ int main()
     stack.push(num_3);
     stack.push(num_4);
     stack.push(num_5);
+    std::cout << "Stack Elements: "; // Print Stack Elements
     stack.display(); // Display the stack
 
     // 4) Remove an element from the stack
     stack.pop();
-    stack.display(); // Display the stack after popping
+    cout << "Stack elements (After Pop): ";
+    stack.display();
 
     // 5) Find the Top of the stack
     try {
