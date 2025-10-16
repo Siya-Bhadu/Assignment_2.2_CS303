@@ -3,12 +3,12 @@
 #include <iostream>
 #include <vector>
 #include <stdexcept>
-#include <numeric> // For std:: accumulate
+#include <numeric> // For std::accumulate
 using namespace std;
 
 class Stack { // Create a stack
 private:
-    std::vector<int> elements; // Use a Vectors elements to create the stack
+    std::vector<int> elements; // Use a vectors elements to create the stack
 
 public:
     // Check if the stack is empty
@@ -17,12 +17,12 @@ public:
     }
 
     // Push an integer onto the stack
-    void push(int value) { // Use built in Vector push function
+    void push(int value) { // Use built in vector push function
         elements.push_back(value);
     }
 
     // Pop an integer from the stack
-    void pop() { // Use built in Vector pop function
+    void pop() { // Use built in vector pop function
         if (isEmpty()) {
             throw std::out_of_range("Stack is empty, cannot pop."); // Throw the exception that the stack is empty
         }
@@ -30,7 +30,7 @@ public:
     }
 
     // Get the top element of the stack
-    int top() const { //Use built in Vector top function
+    int top() const { //Use built in vector top function
         if (isEmpty()) {
             throw std::out_of_range("Stack is empty, no top element"); // Throw the exception that the stack is empty
         }
