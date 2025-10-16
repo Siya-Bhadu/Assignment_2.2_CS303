@@ -21,7 +21,7 @@ This stack has the following features:
 2. Make sure you are in the correct project directory, containing Assignment_2.2_CS303.cpp and Assignment_2.2_CS303.h.
 3. Build and run the program.
 4. Follow the on-screen prompts and the expected output order is:
-   - When the user compiles the program, it will call and check to see if the stack is empty. It will return "Yes" or "No."
+   - When the user compiles the program, it will create a stack, then call and check to see if the stack is empty. It will return "Yes" or "No."
    - The user will be asked to input five numbers to add to the stack.
    - Once the user has inputted five numbers, it will have pushed the values to the stack and will display the stack in its entirety.
    - Next, the program will pop the top value off the stack and display the updated stack.
