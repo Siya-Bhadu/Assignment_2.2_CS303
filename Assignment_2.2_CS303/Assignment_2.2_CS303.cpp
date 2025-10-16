@@ -64,7 +64,7 @@ int main()
     int num_2 = 0;
     int num_3 = 0;
     int num_4 = 0;
-    int num_5 = 5;
+    int num_5 = 0;
     Stack stack;
 
     // 1) Create a stack object
